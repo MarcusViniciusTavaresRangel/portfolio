@@ -19,18 +19,19 @@ img{
 
 }
 
-.grdblc{
-    display: grid;
-    grid-template-columns: 32% 32% 32%;
-    
-    justify-content: center;
+.flxblc{
+    display:flex;
+    flex-flow: row nowrap;
+    -ms-flex-align: baseline;
+    flex: 60%;
+    justify-content: space-between;
     align-items: center;
 
 
 }
 
-.grditm{
-width:100vw;
+.flxitm{
+width:34vw;
 margin:4%;
 height:100%;
 }
