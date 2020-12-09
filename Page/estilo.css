@@ -5,9 +5,9 @@ height:100%;
 }  
 .inicio{
     background-color: rgb(30, 85, 180);
-    width:100%;
+    max-width:95%;
     padding: 2%;
-    margin: 2%;
+    margin: 1%;
 }
 
 .txt{
@@ -20,7 +20,7 @@ height:100%;
 
 .flxblc{
     display: flex;
-    height: 600px;
+    height: 25%;
     flex-wrap: nowrap;
     align-content: flex-start;
    
